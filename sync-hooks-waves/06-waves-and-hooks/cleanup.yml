@@ -6,7 +6,7 @@ metadata:
   labels:
     codefresh.io/cert: cleanup-job  
   annotation:
-    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/sync-wave: "20"
     argocd.argoproj.io/hook: PostSync
 spec:
   template:
